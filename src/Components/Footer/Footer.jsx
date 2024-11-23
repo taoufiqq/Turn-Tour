@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./footer.css";
 import videoF from "../../Assets/video-3.mp4";
 import { FiSend } from "react-icons/fi";
-import { MdOutlineTravelExplore } from "react-icons/md";
+import logo from "../../Assets/logo.png";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { AiFillYoutube } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
@@ -42,8 +42,9 @@ const Footer = () => {
           <div className="footerIntro flex">
             <div className="logoDiv">
               <a href="#" className="logo flex">
-                <MdOutlineTravelExplore className="icon" />
-                Turn World.
+                <img src={logo} className="img_logo" />
+                {/* <MdOutlineTravelExplore className="icon" />
+                Turn World. */}
               </a>
             </div>
             <div data-aos="fade-up" className="footerParagraph">

@@ -65,6 +65,8 @@ li {
     outline: none;
     cursor: pointer;
     border-color: transparent;
+    width: 127px;
+
 }
 
 .btn a {

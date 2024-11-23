@@ -4,6 +4,8 @@ import "./navbar.css";
 import { MdOutlineTravelExplore } from "react-icons/md";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { MdMenu } from "react-icons/md";
+import logo from "../../Assets/logo.png";
+
 const Navbar = () => {
   const [active, setActive] = useState("navBar");
 
@@ -20,11 +22,8 @@ const Navbar = () => {
       <header className="header flex">
         <div className="logoDiv">
           <a href="#" className="logo flex">
-            <h1>
-              {" "}
-              <MdOutlineTravelExplore className="icon" />
-              Turn World.
-            </h1>
+            <img src={logo} className="img_logo"/>
+            {/* <MdOutlineTravelExplore className="icon" /> */}
           </a>
         </div>
 

@@ -20,7 +20,7 @@
     justify-content: space-between;
     background: var(--whiteColorDeam);
     width: 100%;
-    padding: 1rem;
+    padding: .5rem;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(2, 15, 29, 0.242);
 
@@ -31,7 +31,7 @@
     font-weight: 600;
     cursor: pointer;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 
     .icon {
         font-size: 25px;
@@ -39,6 +39,10 @@
         transform: translateY(5px);
     }
 }
+.img_logo {
+    width: 22%;
+}
+
 
 @media screen and (max-width:824px) {
     .navBar {
@@ -104,6 +108,7 @@
 
 }
 
+
 .toggleNavbar {
     .icon {
         font-size: 25px;
@@ -123,7 +128,7 @@
     }
 
     .header {
-        padding: 1.5rem 2rem;
+        padding: 0.5rem 2rem;
 
         .navBar {
             .navLists {
@@ -174,7 +179,7 @@
 @media screen and (min-width:1240px) {
     .header {
 
-        padding: 1rem 0.5rem;
+        padding: 0.5rem 0.5rem;
 
     }
 }
